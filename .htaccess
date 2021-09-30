@@ -1,0 +1,25 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/urbangre/elowen-cms"
+PassengerBaseURI "/"
+PassengerNodejs "/home/urbangre/nodevenv/elowen-cms/14/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/urbangre/elowen-cms"
+PassengerBaseURI "/"
+PassengerNodejs "/home/urbangre/nodevenv/elowen-cms/14/bin/node"
+PassengerAppType node
+PassengerStartupFile server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv DATABASE_HOST localhost
+SetEnv DATABASE_PASSWORD Z?@YG{^@u*lb
+SetEnv DATABASE_PORT 3306
+SetEnv HOST cms.elowen.com.au
+SetEnv PORT 5000
+SetEnv DATABASE_NAME urbangre_elowen_cms
+SetEnv DATABASE_USERNAME urbangre_elowen
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
