@@ -12,11 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Slug": {
+    "slug": {
       "type": "uid",
       "targetField": "Title",
       "required": true
@@ -27,7 +27,7 @@
       "target": "api::category.category",
       "inversedBy": "posts"
     },
-    "Body": {
+    "body": {
       "type": "richtext"
     }
   }
