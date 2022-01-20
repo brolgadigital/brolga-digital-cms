@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
@@ -19,7 +19,6 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "Name",
       "required": true
     },
     "posts": {

@@ -8,7 +8,7 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -18,14 +18,13 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "Title",
       "required": true
     },
     "categories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "inversedBy": "posts"
+      "mappedBy": "posts"
     },
     "body": {
       "type": "richtext"
