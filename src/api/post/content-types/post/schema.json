@@ -24,7 +24,8 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "mappedBy": "posts"
+      "mappedBy": "posts",
+      "required": true
     },
     "body": {
       "type": "richtext"
