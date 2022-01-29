@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Pages"
+    "displayName": "Pages",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,7 +20,7 @@
     },
     "slug": {
       "type": "uid",
-      "targetField": "Title",
+      "targetField": "title",
       "required": true
     }
   }
