@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_portfolio_reviews",
+  "info": {
+    "displayName": "review",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "reviewerName": {
+      "type": "string"
+    },
+    "reviewBody": {
+      "type": "string"
+    }
+  }
+}

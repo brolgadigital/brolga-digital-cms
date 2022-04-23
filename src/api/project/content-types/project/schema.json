@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project",
     "pluralName": "projects",
-    "displayName": "Projects"
+    "displayName": "Projects",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,6 +22,28 @@
     },
     "CaseStudy": {
       "type": "richtext"
+    },
+    "Overviews": {
+      "type": "component",
+      "repeatable": true,
+      "component": "portfolio.service-type"
+    },
+    "launchDate": {
+      "type": "date"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "text"
+    },
+    "interestDescription": {
+      "type": "string"
+    },
+    "review": {
+      "type": "component",
+      "repeatable": false,
+      "component": "portfolio.review"
     }
   }
 }

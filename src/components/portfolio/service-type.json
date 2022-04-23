@@ -2,7 +2,8 @@
   "collectionName": "components_portfolio_service_types",
   "info": {
     "displayName": "serviceType",
-    "icon": "clipboard"
+    "icon": "clipboard",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,11 @@
     },
     "description": {
       "type": "text"
+    },
+    "ui_kit_icon": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::ui-kit-icon.ui-kit-icon"
     }
   }
 }
