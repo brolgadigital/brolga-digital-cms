@@ -15,14 +15,14 @@ module.exports = ({ env }) => ({
     },
     upload: {
       config: {
-        provider: 'strapi-provider-upload-ftp-v2',
-        providerOptions: {
-          host: env('SFTP_UPLOAD_HOST'),
-          user: env('SFTP_UPLOAD_USER'),
-          password: env('SFTP_UPLOAD_PASSWORD'),
-          basePath: env('SFTP_UPLOAD_BASEPATH'),
-          baseUrl: env('SFTP_UPLOAD_BASEURL'),
-        },
+        provider: 'strapi-provider-upload-sftp',
+        // providerOptions: {
+        //   host: env('SFTP_UPLOAD_HOST'),
+        //   user: env('SFTP_UPLOAD_USER'),
+        //   password: env('SFTP_UPLOAD_PASSWORD'),
+        //   basePath: env('SFTP_UPLOAD_BASEPATH'),
+        //   baseUrl: env('SFTP_UPLOAD_BASEURL'),
+        // },
       },
     },
   });
