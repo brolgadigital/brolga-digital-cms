@@ -16,7 +16,8 @@
     "@strapi/plugin-users-permissions": "4.1.8",
     "@strapi/strapi": "4.1.8",
     "pg": "^8.7.1",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi-provider-upload-sftp": "^3.0.1"
   },
   "author": {
     "name": "Shelley Bassett"

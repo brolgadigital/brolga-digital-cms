@@ -13,4 +13,9 @@ module.exports = ({ env }) => ({
             jwtSecret: env('JWT_SECRET')
         },
     },
+    upload: {
+      config: {
+        provider: 'strapi-provider-upload-sftp'
+      },
+    },
   });
