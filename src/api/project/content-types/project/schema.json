@@ -38,7 +38,7 @@
       "type": "text"
     },
     "interestDescription": {
-      "type": "string"
+      "type": "text"
     },
     "review": {
       "type": "component",
