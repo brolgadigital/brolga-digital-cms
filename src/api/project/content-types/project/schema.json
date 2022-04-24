@@ -44,6 +44,15 @@
       "type": "component",
       "repeatable": false,
       "component": "portfolio.review"
+    },
+    "coverImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
