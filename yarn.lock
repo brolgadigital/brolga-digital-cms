@@ -9986,6 +9986,13 @@ strapi-provider-upload-ftp-v2@^1.1.0:
   dependencies:
     ftp "^0.3.10"
 
+strapi-provider-upload-sftp-v2@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/strapi-provider-upload-sftp-v2/-/strapi-provider-upload-sftp-v2-1.0.2.tgz#59bf63730edd3c999a92f49f3cc04a785d974f91"
+  integrity sha512-4eYJKPBjGcXoIg/5uwFeruzwY/51VeEeJ7cvgmw9DyQcU8oeUtqOCg0iUFvitQOM8KM7YWzxmyRgCwoilzAATA==
+  dependencies:
+    ssh2-sftp-client "^2.5.0"
+
 strapi-provider-upload-sftp@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/strapi-provider-upload-sftp/-/strapi-provider-upload-sftp-3.0.1.tgz#93e7b32ada5a2708eb0745672a1b8c0f10110c9a"
