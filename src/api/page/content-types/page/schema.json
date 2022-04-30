@@ -23,7 +23,7 @@
       "targetField": "title",
       "required": true
     },
-    "Description": {
+    "description": {
       "type": "text"
     }
   }

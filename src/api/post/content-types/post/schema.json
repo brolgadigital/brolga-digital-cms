@@ -36,10 +36,10 @@
       "target": "api::tag.tag",
       "inversedBy": "posts"
     },
-    "Description": {
+    "description": {
       "type": "text"
     },
-    "PublishDate": {
+    "publishDate": {
       "type": "date"
     }
   }

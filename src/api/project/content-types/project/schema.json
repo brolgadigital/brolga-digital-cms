@@ -12,18 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Slug": {
+    "slug": {
       "type": "uid",
       "targetField": "Title",
       "required": true
     },
-    "CaseStudy": {
+    "caseStudy": {
       "type": "richtext"
     },
-    "Overviews": {
+    "overviews": {
       "type": "component",
       "repeatable": true,
       "component": "portfolio.service-type"
@@ -31,7 +31,7 @@
     "launchDate": {
       "type": "date"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
     "summary": {
