@@ -8,8 +8,20 @@ module.exports = [
         directives: {
           'connect-src': ["'self'", 'https:'],
           // using env vars:
-          'img-src': ['*', "'self'", 'data:', 'blob:', `${process.env.SFTP_UPLOAD_BASE_URL}`],
-          'media-src': ["'self'", 'data:', 'blob:', `${process.env.SFTP_UPLOAD_BASE_URL}`],
+          'img-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'dl.airtable.com',
+            'brolga-digital-strapi-images.s3.ap-southeast-2.amazonaws.com',
+          ],
+          'media-src': [
+            "'self'",
+            'data:',
+            'blob:',
+            'dl.airtable.com',
+            'brolga-digital-strapi-images.s3.ap-southeast-2.amazonaws.com',
+          ],
           upgradeInsecureRequests: null,
         },
       },
