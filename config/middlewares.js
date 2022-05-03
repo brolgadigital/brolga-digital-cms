@@ -14,6 +14,7 @@ module.exports = [
             'blob:',
             'dl.airtable.com',
             'brolga-digital-strapi-images.s3.ap-southeast-2.amazonaws.com',
+            '*.amazonaws.com',
           ],
           'media-src': [
             "'self'",
@@ -21,6 +22,7 @@ module.exports = [
             'blob:',
             'dl.airtable.com',
             'brolga-digital-strapi-images.s3.ap-southeast-2.amazonaws.com',
+            '*.amazonaws.com',
           ],
           upgradeInsecureRequests: null,
         },
