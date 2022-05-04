@@ -41,6 +41,19 @@
     },
     "publishDate": {
       "type": "date"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "hideFromFeed": {
+      "type": "boolean"
     }
   }
 }
