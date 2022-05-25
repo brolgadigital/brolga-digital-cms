@@ -3,6 +3,7 @@ module.exports = ({ env }) => ({
     graphql: {
       config: {
         endpoint: "/graphql",
+        playgroundAlways: true,
         apolloServer: {
           introspection: true,
         },
