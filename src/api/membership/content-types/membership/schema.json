@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "memberships",
+  "info": {
+    "singularName": "membership",
+    "pluralName": "memberships",
+    "displayName": "memberships",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "membershipOptions": {
+      "type": "dynamiczone",
+      "components": [
+        "member.membership"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

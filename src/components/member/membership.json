@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_member_memberships",
+  "info": {
+    "displayName": "membership",
+    "icon": "user-tag"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "monthlyPrice": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
