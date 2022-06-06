@@ -27,6 +27,9 @@
       "relation": "manyToMany",
       "target": "api::post.post",
       "inversedBy": "categories"
+    },
+    "brolgaIcon": {
+      "type": "string"
     }
   }
 }
