@@ -1,8 +1,8 @@
 {
-  "name": "elowen",
+  "name": "Brolga Digital CMS",
   "private": true,
   "version": "0.2.0",
-  "description": "Elowen Tech Blog",
+  "description": "Strapi CMS for managing Brolga Digital and Brolga Creators",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
