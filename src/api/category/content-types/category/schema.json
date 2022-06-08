@@ -22,14 +22,14 @@
       "required": true,
       "targetField": "name"
     },
-    "posts": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::post.post",
-      "inversedBy": "categories"
-    },
     "brolgaIcon": {
       "type": "string"
+    },
+    "brolga_creators_posts": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::blog.blog",
+      "inversedBy": "categories"
     }
   }
 }

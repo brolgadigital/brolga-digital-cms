@@ -4,7 +4,7 @@
   "info": {
     "singularName": "post",
     "pluralName": "posts",
-    "displayName": "Posts",
+    "displayName": "Brolga Digital Posts",
     "description": ""
   },
   "options": {
@@ -21,20 +21,8 @@
       "required": true,
       "targetField": "title"
     },
-    "categories": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::category.category",
-      "mappedBy": "posts"
-    },
     "body": {
       "type": "richtext"
-    },
-    "tags": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::tag.tag",
-      "inversedBy": "posts"
     },
     "description": {
       "type": "text"
@@ -52,15 +40,6 @@
         "videos",
         "audios"
       ]
-    },
-    "showInFeed": {
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
-    "displayBrolgaDigital": {
-      "type": "boolean",
-      "default": false
     }
   }
 }

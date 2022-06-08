@@ -17,11 +17,11 @@
       "unique": true,
       "required": true
     },
-    "posts": {
+    "brolga_creators_posts": {
       "type": "relation",
       "relation": "manyToMany",
-      "target": "api::post.post",
-      "mappedBy": "tags"
+      "target": "api::blog.blog",
+      "inversedBy": "tags"
     }
   }
 }
