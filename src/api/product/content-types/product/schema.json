@@ -15,7 +15,7 @@
     "productName": {
       "type": "string"
     },
-    "product_categories": {
+    "productCategories": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::product-category.product-category",
