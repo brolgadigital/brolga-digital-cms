@@ -23,7 +23,7 @@
       "relation": "oneToMany",
       "target": "api::category.category"
     },
-    "brolga_creators_posts": {
+    "featurePosts": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::blog.blog"
