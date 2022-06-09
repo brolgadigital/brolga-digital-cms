@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home",
     "pluralName": "homes",
-    "displayName": "home"
+    "displayName": "home",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,10 +23,10 @@
       "relation": "oneToMany",
       "target": "api::category.category"
     },
-    "featurePosts": {
+    "brolga_creators_posts": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::post.post"
+      "target": "api::blog.blog"
     }
   }
 }
