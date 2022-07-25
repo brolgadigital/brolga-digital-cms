@@ -11,13 +11,15 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-graphql": "^4.1.8",
-    "@strapi/plugin-i18n": "^4.1.8",
-    "@strapi/plugin-users-permissions": "^4.1.8",
-    "@strapi/provider-upload-aws-s3": "^4.1.9",
-    "@strapi/strapi": "^4.1.8",
+    "@strapi/plugin-graphql": "^4.2.3",
+    "@strapi/plugin-i18n": "^4.2.3",
+    "@strapi/plugin-users-permissions": "^4.2.3",
+    "@strapi/provider-upload-aws-s3": "^4.2.3",
+    "@strapi/strapi": "^4.2.3",
     "pg": "^8.7.3",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "strapi-provider-upload-sftp": "^3.0.1",
+    "strapi-provider-upload-sftp-v2": "^1.0.2"
   },
   "author": {
     "name": "Shelley Bassett"
