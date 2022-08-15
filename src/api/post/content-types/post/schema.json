@@ -40,6 +40,12 @@
         "videos",
         "audios"
       ]
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "posts"
     }
   }
 }

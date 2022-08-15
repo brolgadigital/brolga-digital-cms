@@ -34,7 +34,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::category.category",
-      "inversedBy": "brolga_creators_posts"
+      "mappedBy": "brolga_creators_posts"
     },
     "tags": {
       "type": "relation",
